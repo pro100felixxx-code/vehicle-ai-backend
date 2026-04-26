@@ -1,4 +1,6 @@
-
+app.get("/", (req, res) => {
+  res.send("🚗 VehicleAI API is running");
+});
 const express = require('express');
 const app = express();
 app.use(express.json());
